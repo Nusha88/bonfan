@@ -885,7 +885,7 @@ p.p-secondary {
     cursor: pointer
 }
 a.btn.social-icons {
-    padding: 1.5rem;
+    padding: 1em 2rem;
     margin-right: 1em;
 }
 
@@ -2114,10 +2114,6 @@ a.btn.social-icons {
     .section-tours {
         padding: 20rem 0 10rem 0
     }
-    .scale .img-container {
-        -webkit-transform: none;
-        transform: none;
-    }
 }
 
 .section-stories {
@@ -2145,7 +2141,7 @@ a.btn.social-icons {
 .map {
     position: relative;
     z-index: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     border-radius: 3px;
 }
 
@@ -2160,11 +2156,10 @@ a.btn.social-icons {
 .book {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9));
     background-size: cover;
-    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
     position: absolute;
     border-radius: 3px;
     /*top: -1px;*/
-    left: 5px;
+    left: 0;
     width: 40%;
     height: 99%;
     z-index: 9999;
@@ -2188,11 +2183,11 @@ a.btn.social-icons {
         height: 40%;
         margin-bottom: 2em;
     }
-
     iframe {
         max-height: 50%;
     }
-}@media only screen and (max-width: 37.5em) {
+}
+@media only screen and (max-width: 37.5em) {
     .book {
         position: relative;
         width: 100%;
