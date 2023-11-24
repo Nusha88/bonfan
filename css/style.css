@@ -1826,17 +1826,25 @@ a.btn.social-icons {
     top: 4rem;
     left: 4rem
 }
+.logo img {
+    width: 120px;
+}
 
 .header__contact-box {
     position: absolute;
     font-size: 5em;
     color: white;
-    top: 4rem;
+    top: 8rem;
     right: 4rem
 }
 @media only screen and (max-width: 37.5em) {
     .header__contact-box {
         font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    .logo img {
+        width: 80px;
     }
 }
 
