@@ -2166,10 +2166,16 @@ a.btn.social-icons {
         padding: 10rem 0
     }
 }
+
 .map {
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+}
+.map h2 {
+    color: #ffffff;
+}
+.map img{
+    margin-top: 2em;
     border-radius: 3px;
 }
 
