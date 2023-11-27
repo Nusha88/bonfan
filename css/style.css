@@ -1672,6 +1672,10 @@ a.btn.social-icons {
     width: 15rem;
     height: auto
 }
+.footer__logo img {
+    width: 8rem;
+    height: auto
+}
 
 .footer__navigation {
     border-top: 1px solid #777;
@@ -2081,6 +2085,22 @@ a.btn.social-icons {
     margin-top: -10rem
 }
 
+.section-tours span {
+    color: orangered;
+}
+
+.section-tours .important {
+    text-align: left;
+    padding: 2em;
+    margin-left: 4em;
+    font-size: 1.5em;
+}
+
+.section-tours h4 {
+    color: orangered;
+    font-size: 3em;
+}
+
 .section-tours .space-image {
     width: 100%;
     height: auto;
@@ -2156,7 +2176,7 @@ a.btn.social-icons {
 .contact-number {
     font-size: 3em;
     color: #28b485;
-    margin-top: 2em;
+    margin-top: 9em;
     margin-bottom: 1em;
     text-align: center;
     font-weight: 700;
